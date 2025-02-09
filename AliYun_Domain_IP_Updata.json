@@ -1,0 +1,8 @@
+{
+    "NetworkInterfaceName":["网卡名称1","网卡名称1","网卡名称1"],
+    "RefreshTime":"检测网卡地址变动的时间，单位是毫秒",
+    "ACCESS_KEY_ID":"阿里云密钥ID",
+    "ACCESS_KEY_SECRET":"阿里云密钥 ",
+    "DOMAIN_NAME":"主域名 例如 github.com",
+    "Sub_Domain_List":["子域名 例如： www","top","zzz"]
+}

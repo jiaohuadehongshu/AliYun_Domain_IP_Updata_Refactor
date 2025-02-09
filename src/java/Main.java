@@ -9,7 +9,8 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException, IOException, ClientException {
-        System.out.println("嗨~~~~我是程序员-魂梦纤(jiaohuadehongshu)-，本程序的功能是用于给普通用户在使用家庭宽带时同步程序所在计算机的IPv6地址到阿里云服务器DNS上");
+        System.out.println("嗨~~~~我是程序员-jiaohuadehongshu-，本程序的功能是用于给普通用户在使用家庭宽带时同步程序所在计算机的IPv6地址到阿里云服务器DNS上");
+        System.out.println("本程序已在git hub上进行开源，有不懂的可以去瞧瞧：https://github.com/jiaohuadehongshu/AliYun_Domain_IP_Updata_Refactor");
         System.out.println("写这个程序的目的是为了更好的让大家在21世纪享受到IPv6普及所带来的便利，为IPv6的推广献上自己的一点点绵薄之力，嘿嘿嘿 OvO");
         System.out.println("------------------------------------------------------------------------");
         System.out.println("下面将打印全部具有网卡信息，如果您是第一次使用，需注意该步骤");
