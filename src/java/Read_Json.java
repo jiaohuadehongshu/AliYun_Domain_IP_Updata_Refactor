@@ -8,7 +8,8 @@ public class Read_Json {
     private String currentPath;     //当前jar包所在路径
 
     public Read_Json() {
-        currentPath = Read_Json.class.getProtectionDomain().getCodeSource().getLocation().getPath();
+        currentPath = new File(Read_Json.class.getProtectionDomain().getCodeSource().getLocation().getPath()).getParent();
+        //为什么要加上new File().getParent() 原因是现在获取的是class文件的路径，但是当打包成jar包后就变成获取jar包的路径了，会带上文件名称，而不是单纯的路径信息了
         /*
             获取Java程序运行时当前类所在目录
             ReadJson.class：指向类 ReadJson 的 Class 对象，用于访问类的元数据

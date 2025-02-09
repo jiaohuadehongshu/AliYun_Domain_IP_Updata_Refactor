@@ -20,8 +20,12 @@ public class Main {
         System.out.println("\n程序准备读取Json文件，如果你是第一次运行，尚未填写Json文件，稍后程序将会终止");
 
         LogFileWrite logFileWrite = new LogFileWrite();
+        try {
+            logFileWrite.write_log("程序开始运行，开始读取Json文件");
+        }catch (Exception e){
+            System.out.println("日志写入失败？？？？？");
+        }
 
-        logFileWrite.write_log("程序开始运行，开始读取Json文件");
 
         //二、读取json文件参数
         AliYun_Json_Data aliYunJsonData = (AliYun_Json_Data) new Read_Json().readJsonIPs("AliYun_Domain_IP_Updata.json", AliYun_Json_Data.class);
