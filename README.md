@@ -7,7 +7,7 @@
 3、如果在阿里云没有购买dns服务则emmmmmm不行</br>
 4、很重要的一点，现在这个代码在打包成jar包后是无法运行的，原因是由于用maven解决了依赖引入的其他的jar包，其他的jar包带签名文件，这将导致后续签名验证失败导致，需要删除jar包里面 /META-INF目录下的BC20248KE.SF文件，不然会一直报错无法运行。</br>
 5、AliYun_Domain_IP_Updata.json 这个文件一定要注意，以防万一这里解释一下</br>
-&emsp;&emsp;&emsp;NetworkInterfaceName：网卡名称，程序会去读取这些网卡的地址信息，需要注意的是要填入真实网卡名称，真实网卡名称在第一次运行程序时获得，在有多个子域名的情况下需填多个网卡名称。</br>
+&emsp;&emsp;&emsp;NetworkInterfaceName：网卡名称，请填入真实网卡名称，在第一次运行程序时获得，在有多个子域名的情况下需填多个网卡名称。</br>
 &emsp;&emsp;&emsp;RefreshTime：刷新时间，每隔一段时间会重写去获取网卡的IP地址信息，并同步到阿里云上，这里单位是毫秒，填数字即可。</br>
 &emsp;&emsp;&emsp;KEY：ID和SECRET都是从阿里云获取。</br>
 &emsp;&emsp;&emsp;DOMAIN_NAME：主域名：举个例子 www.bilibili.com 中的 bilibili.com。
