@@ -10,6 +10,6 @@
 &emsp;&emsp;&emsp;NetworkInterfaceName：网卡名称，请填入真实网卡名称，在第一次运行程序时获得，在有多个子域名的情况下需填多个网卡名称。</br>
 &emsp;&emsp;&emsp;RefreshTime：刷新时间，每隔一段时间会重写去获取网卡的IP地址信息，并同步到阿里云上，这里单位是毫秒，填数字即可。</br>
 &emsp;&emsp;&emsp;KEY：ID和SECRET都是从阿里云获取。</br>
-&emsp;&emsp;&emsp;DOMAIN_NAME：主域名：举个例子 www.bilibili.com 中的 bilibili.com。
+&emsp;&emsp;&emsp;DOMAIN_NAME：主域名：举个例子 www.bilibili.com 中的 bilibili.com。</br>
 &emsp;&emsp;&emsp;Sub_Domain_List：子域名：用上面这个例子就是 www。
 </p>
