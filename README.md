@@ -11,5 +11,13 @@
 &emsp;&emsp;&emsp;RefreshTime：刷新时间，每隔一段时间会重写去获取网卡的IP地址信息，并同步到阿里云上，这里单位是毫秒，填数字即可。</br>
 &emsp;&emsp;&emsp;KEY：ID和SECRET都是从阿里云获取。</br>
 &emsp;&emsp;&emsp;DOMAIN_NAME：主域名：举个例子 www.bilibili.com 中的 bilibili.com。</br>
-&emsp;&emsp;&emsp;Sub_Domain_List：子域名：用上面这个例子就是 www。
+&emsp;&emsp;&emsp;Sub_Domain_List：子域名：用上面这个例子就是 www。</br>
+<h3>笔记</h3>
+<p>上传的时候遇到小插曲，记一下：
+  <br>git config --global -l //查看git配置，可以看到git代理配置信息
+  <br>git config --global https.proxy 127.0.0.1:7890
+  <br>git config --global http.proxy 127.0.0.1:7890
+  <br>git config --global --unset https.proxy //取消配置
+  <br>git config --global --unset http.proxy //取消配置
+</p>
 </p>
