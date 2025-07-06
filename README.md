@@ -14,6 +14,7 @@
 <li>DOMAIN_NAME：主域名：举个例子 www.bilibili.com 中的 bilibili.com。</li>
 <li>Sub_Domain_List：子域名：用上面这个例子就是 www。</li>
 </ui>
+<p>打包好的jar下载地址：https://pan.baidu.com/s/1ZHAf6EIsCajIs8Chl4jFOw?pwd=jpuk 提取码: jpuk </p>
 <h3>笔记</h3>
 <p>上传的时候遇到小插曲，记一下：
   <br>git config --global -l //查看git配置，可以看到git代理配置信息
